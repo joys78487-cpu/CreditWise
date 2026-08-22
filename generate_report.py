@@ -50,7 +50,7 @@ story.append(ListFlowable([ListItem(Paragraph(item, styles['BulletStyle'])) for 
 
 story.append(Paragraph("5. Models and Results", styles['HeadingStyle']))
 story.append(Paragraph("The project compared Logistic Regression, K-Nearest Neighbors, and Gaussian Naive Bayes. Logistic Regression produced the best overall performance with strong precision and recall balance.", styles['BodyStyle']))
-story.append(Paragraph("Observed metrics: Accuracy 0.916, Precision 0.881, Recall 0.852, and F1-score 0.867.", styles['BodyStyle']))
+story.append(Paragraph("Observed metrics: Accuracy 0.875, Precision 0.79, Recall 0.803, and F1-score 0.796.", styles['BodyStyle']))
 
 story.append(Paragraph("6. Streamlit Deployment", styles['HeadingStyle']))
 story.append(Paragraph("The project was also deployed as a Streamlit web application so users can input applicant details and receive an instant loan approval prediction through the trained model(Logistic Regression).", styles['BodyStyle']))
